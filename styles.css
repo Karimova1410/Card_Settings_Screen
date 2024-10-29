@@ -140,3 +140,14 @@ input:checked + .slider {
 input:checked + .slider:before {
     transform: translateX(20px);
 }
+.blue-diagonal {
+    position: absolute;
+    top: -400px;
+    right: -87px;
+    width: 150%;
+    height: 70%;
+    background-color: #468DF4;
+    transform: rotate(35deg);
+    transform-origin: left bottom;
+    z-index: 1;
+}
